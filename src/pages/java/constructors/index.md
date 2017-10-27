@@ -3,9 +3,31 @@ title: Constructors
 ---
 # Constructors
 
+What are Constructors?
+
+
+Constructors are special member functions whose task is to initialize the objects of its class. It is treated as a special member function because its name is the same as the class name. Java constructors are invoked when their objects are created. It is named such because, it constructs the value i.e. provide data for the object, i.e. they are used to initialize objects. Every class has a constructor, when we don’t explicitly declare a constructor for any java class the compiler creates a default constructor for that class which does not have any return type. Constructor in Java cannot be abstract, static, final or synchronized and these modifiers are not allowed for constructor.
+
+
+
+
 What's the point then? I should be able to store data in it right?
 
 That's when we use either **getter** (e.g., getName()) / **setter** (e.g., setName()) methods or in this case constructors to initialize a class. Basically every Java Class has a constructor, which is the method which is called first when any object of the class is initialized. Think of it as a bit of starter code.
+
+Characteristics of Java Constructors
+
+*   Interface cannot have constructor.
+*   Constructors cannot be private.
+*   A constructor cannot be abstract, static, final, native, strictfp, or synchronized
+*   A constructor can be overloaded.
+*   Constructors cannot return a value.
+*   Constructors do not have a return type; not even void.
+*   Abstract class can have constructor.
+*   Constructors name must be similar to that of class name inside which it resides.
+*   Constructors are automatically called when an object is created.
+
+ Instance variables and methods of a class are known as members of a class. Constructors are not members. For this reason, constructors cannot be inherited; but can be accessed by a subclass. Actually, Java constructors do not get inherited; only their members (variables and methods) get inherited. So declaring a constructor as final is useless and has no meaning as constructors cannot be overridden. Again, Java constructors should not be synchronized as it locks the object when created and hence, as long as the object is not created no other object can be instantiated.
 
 When you write a class without any constructor, then Java assumes it has a default constructor :
 
