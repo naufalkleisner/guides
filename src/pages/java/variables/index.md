@@ -13,6 +13,13 @@ In <a href='https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Java' target='_bla
 
 We made a distinction between **Wrapper Type** and general **Object Type** for a reason - wrapper types are closely linked with their primitive counterparts via <a href='https://docs.oracle.com/javase/tutorial/java/data/autoboxing.html' target='_blank' rel='nofollow'>autoboxing and unboxing</a>; but more on that later.
 
+Rules of Declaring variables in Java
+*  Variable name can consist of Capital letters A-Z, lowercase letters a-z, digits 0-9, and two special characters such as underscore and dollar Sign.
+*  The first character must be a letter.
+*  Blank spaces cannot be used in variable names.
+*  Java keywords can not be used as variable names.
+*  Variable names are case-sensitive.
+
 Typically you can declare variables using the following syntax :
 
 ```java
