@@ -3,6 +3,19 @@ title: While Loop
 ---
 # While Loop
 
+while loop is most basic loop in Java. It has one control condition, and executes as long the condition is true. The condition of the loop is tested before the body of the loop is executed, hence it is called an entry-controlled loop.
+
+The basic format of while loop statement is:
+
+Syntax:
+```java
+While (condition)
+{
+   statement(s);
+   Incrementation;
+}
+```
+
 The `while` loop executes a group of statements until an expression evaluates to `true`. For instance:
 
 ```java
